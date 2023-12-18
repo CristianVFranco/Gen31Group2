@@ -1,5 +1,5 @@
-@forward "Aside-left";
 
+@forward "Aside-left";
 * {
   margin: 5px;
 
@@ -23,7 +23,8 @@ header {
   display: flex;
   flex: 1;
 }
-.asideLeft {
+.left {
+  background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
