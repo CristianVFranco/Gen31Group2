@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.asideRight {
+  position: relative;
+  overflow: hidden;
+  font-family: system-ui, "Segoe UI", "Roboto";
+  display: block;
+  height: 100%;
+  width: 20%;
+  background-color: #efefef;
+  padding: 20px;
+}
+
+.trending_box {
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.recently_box {
+  margin: 5px 0px 10px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+a {
+  font-family: system-ui, "Segoe UI", "Roboto";
+  font-weight: 470;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 16px;
+  text-align: start;
+  color: black;
+}
+
+a:hover {
+  background-color: #fff;
+  padding: 16px;
+  width: 100%;
+  text-align: start;
+  color: blue;
+}
+
+h4 {
+  font-size: 14px;
+  padding: 8px 0px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .asideRight {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .asideRight {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .asideRight {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .asideRight {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .asideRight {
+    visibility: visible;
+  }
+}
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  background-color: rgba(15, 231, 231, 0.5);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(233, 148, 44);
+  padding: 2px 0 2px 0;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.asideLeft {
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+}
+
+main {
+  background-color: purple;
+  padding: 4em 0 4em 0;
+  flex: 5 5 150px;
+}
+
+.right {
+  background-color: grey;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+}
+
+footer {
+  background-color: rgb(224, 103, 103);
+  padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 550px) {
+  .main {
+    flex-direction: column;
+  }
+  main {
+    padding: 5em 0 5em 0;
+  }
+} /*# sourceMappingURL=main.css.map */
