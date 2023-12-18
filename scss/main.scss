@@ -16,6 +16,7 @@ body {
 header {
   background-color: rgb(233, 148, 44);
   padding: 2px 0 2px 0;
+  text-align: center;
 }
 .main {
   display: flex;
@@ -48,3 +49,13 @@ footer {
     padding: 5em 0 5em 0;
   }
 }
+
+
+
+
+
+
+
+
+@import "_HeaderMain.scss";
+@import "_FooterMain.scss";
