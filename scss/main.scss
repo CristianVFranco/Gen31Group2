@@ -1,12 +1,7 @@
 @forward "Aside-left";
+@forward "_HeaderMain";
+@forward "_FooterMain";
 
-
-
-* {
-  margin: 5px;
-
-  box-sizing: border-box;
-}
 body {
   height: 95vh;
   background-color: rgba(15, 231, 231, 0.5);
@@ -52,13 +47,3 @@ footer {
     padding: 5em 0 5em 0;
   }
 }
-
-
-
-
-
-
-
-
-@import "_HeaderMain.scss";
-@import "_FooterMain.scss";
