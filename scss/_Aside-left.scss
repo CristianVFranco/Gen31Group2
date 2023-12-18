@@ -1,61 +1,8 @@
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  height: 95vh;
-  background-color: rgba(15, 231, 231, 0.5);
-  font-family: sans-serif;
-  text-align: center;
-
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-header {
-  background-color: rgb(233, 148, 44);
-  padding: 2px 0 2px 0;
-
-  text-align: center;
-
-}
-
-.main {
-  display: flex;
-  flex: 1;
-}
-
-.left {
-  background-color: rgb(76, 233, 44);
-
-.asideLeft {
-
-  padding: 3em 0 3em 0;
-  flex: 1 1 100px;
-}
-
-main {
-  background-color: purple;
-  padding: 4em 0 4em 0;
-  flex: 5 5 150px;
-}
-
-.right {
-  background-color: grey;
-  padding: 3em 0 3em 0;
-  flex: 1 1 100px;
-}
-
-footer {
-  background-color: rgb(224, 103, 103);
-  padding: 1em 0 1em 0;
-}
-
-
 
 .asideRight {
   position: relative;
@@ -66,6 +13,7 @@ footer {
   width: 20%;
   background-color: #efefef;
   padding: 20px;
+  color: black;
 }
 
 .trending_box {
@@ -90,10 +38,10 @@ a {
   font-family: system-ui, "Segoe UI", "Roboto";
   font-weight: 470;
   font-size: 16px;
+  color: #000;
   text-decoration: none;
   padding: 16px;
   text-align: start;
-  color: black;
 }
 
 a:hover {
@@ -115,57 +63,27 @@ h4 {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 600px) {
   .asideRight {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .asideRight {
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .asideRight {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 1300px) {
   .asideRight {
     visibility: visible;
   }
 }
-
-@media all and (max-width: 550px) {
-  .main {
-    flex-direction: column;
-  }
-  main {
-    padding: 5em 0 5em 0;
-  }
-
-}
-
-footer {
-  background-color: azure;
-}
-
-.pFooter {
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  color: rgb(64, 61, 61);
-  padding: 8px 15px;
-  padding: 8px 15px;
-  justify-content: right;
-  font-size: small;
-  border: 0cap;
-  cursor: pointer;
-}
-
-.pFooter a {
-  text-decoration: none;
-}
-
-} 
-
